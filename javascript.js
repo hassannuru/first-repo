@@ -1,6 +1,6 @@
-$('nav li').click(function(e){
+$('#menuList li').click(function(e){
     e.preventDefault();
-       $('nav li').removeClass("active");
+       $('#menuList li').removeClass("active");
        $(this).addClass("active");
        
    });
